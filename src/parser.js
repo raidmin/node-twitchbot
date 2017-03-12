@@ -16,6 +16,7 @@ module.exports = {
 			level: this.getElement(msg, 'user-type'),
 			sub: +this.getElement(msg, 'subscriber'),
 			turbo: +this.getElement(msg, 'turbo'),
+			mod: +this.getElement(msg, 'mod')
 		})
 
 		return deferred.promise;
